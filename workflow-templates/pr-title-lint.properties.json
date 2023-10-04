@@ -1,0 +1,4 @@
+{
+    "name": "Default PR Linting workflow",
+    "description": "This is the default PR Linting workflow, which will use the default linting rules from repo: commitlint-config"
+}

@@ -1,0 +1,13 @@
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - edited
+      - synchronize
+    branches:
+      - [ $default-branch ]
+
+jobs:
+  call-workflow:
+    uses: taptapsend/commitlint-config/.github/workflows/pr-title-lint.yml@test
