@@ -10,4 +10,4 @@ on:
 
 jobs:
   call-workflow:
-    uses: taptapsend/commitlint-config/.github/workflows/pr-title-lint.yml@main
+    uses: taptapsend/commitlint-config/.github/workflows/pr-title-lint.yml@1359ac0476fbd50ac4465ba33080e08f78bb0cd5 # main
